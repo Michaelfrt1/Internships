@@ -1,6 +1,3 @@
-//Michael Ginzburg
-//CSCI 1913
-
 /*
 The WordReplacementCipher Class creates a cipher that replaces certain words with other words.
 Inherits from BaseCipher.
