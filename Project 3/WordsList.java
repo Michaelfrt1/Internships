@@ -1,5 +1,4 @@
 import java.util.Random;
-
 /**
  * A WordsList represents a list of words.
  * ultimately, this is a helper-class it's major purpose is to store
@@ -30,7 +29,6 @@ public class WordsList {
      * @return a randomly chosen word within the specific size requirements
      */
     public String getWord(int minLength, int maxLength) {
-        // This is not the most efficient approach, but it works well enough for a project like this.
         String word;
         do {
             word = getWord();
@@ -39,8 +37,6 @@ public class WordsList {
     }
 
     // 400 general words and 200 picturable words. https://en.wiktionary.org/wiki/Appendix:Basic_English_word_list
-    // A bigger/better program might want a bigger/better word list, but that's fine. This word list is good enough for us today.
-    // And keeping our word list to these common words makes the games A LOT more playable.
     private static final String[] words = {
             "account",
             "act",
