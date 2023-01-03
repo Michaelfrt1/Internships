@@ -1,9 +1,4 @@
 /**
- * Michael Ginzburg
- * CSCI 1913
- */
-
-/**
  * @param <T>
  * Trie TrieNode class creates Nodes for the Trie class to use.
  */
