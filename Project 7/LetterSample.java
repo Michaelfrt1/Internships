@@ -1,10 +1,6 @@
-/**
- * @Author Kluver 2022 All rights reserved.
- */
 public class LetterSample {
     /**
-     * This char represents the "end of string" It will be added in the toSamples function and you'll need to use it in
-     * your Gibberisher algorithm.
+     * This char represents the "end of string" It will be added in the toSamples function 
      */
     public static final char STOP = '.';
 
@@ -15,7 +11,7 @@ public class LetterSample {
      * Constructor -- takes the segment and nextLetter values.
      * These cannot be changed after construction.
      *
-     * Each sample represents a small example of english text. The segment is a series of letters we saw in a real word
+     * Each sample represents a small example of english text. The segment is a series of letters in the real word
      * and the nextLetter is what letter we saw following it (or STOP to indicate it was the end of the word!)
      */
     public LetterSample(String segment, char nextLetter) {
