@@ -1,6 +1,3 @@
-//Michael Ginzburg
-//CSCI 1913
-
 /*EvenOddCipher is a class that makes a code using the even and odd places in a string by inheriting from the BaseCipher class*/
 public class EvenOddCipher extends BaseCipher {
 
