@@ -25,17 +25,6 @@ public class GibberisherMain {
     }
 
     public static void main(String[] args) {
-        // I've broken this file up into functions. The purpose here is to help you test runtime properties of your algorithm
-        // And generally play around and have fun with this.
-
-        // tests I recommend trying:
-        //  * does varying segmentLength have a strong effect on runtime?
-        //  * how does varying the number of words to generate change the run time?
-        //  * how does changing segmentLength effect the quality of words generated?
-        //     * What sort of words are generated when segmentLength is too small?
-        //     * What sort of words are generated when segmentLength is too big?
-
-        // some code to get you started:
         printSome(runGibberisherTest(4, 2000), 20);
     }
 }
