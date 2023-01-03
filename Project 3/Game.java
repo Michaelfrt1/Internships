@@ -13,17 +13,12 @@ public abstract class Game {
 
     /**
      * This class represents a general outline of playing a game
-     * It might be a bit intimidating, but I recommed looking over it
-     *
      * @param user -- the scanner connected ot the user
-     *             typically this would be connected to system.in,
-     *             but not always
      */
     public void play(Scanner user) {
         System.out.println(prepToPlay());
         while(!isOver()) {
             // loop until valid move. quit always quits
-            // (you don't need to handle this in your code!)
             System.out.print("Enter Your Move or 'quit' to quit> ");
             String move = user.next();
             while(! isValid(move) && ! "quit".equals(move)) {
