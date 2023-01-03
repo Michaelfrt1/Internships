@@ -1,8 +1,5 @@
 # Selection, Insertion, and Merge sorts
 # Which one runs better
-
-
-
 def selection_sort(numbers):
     """Sort the list numbers in-place. (Note, this doesn't have to be numbers)"""
     count = 0
