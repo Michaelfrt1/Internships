@@ -1,9 +1,4 @@
 /**
- * Michael Ginzburg
- * CSCI 1913
- */
-
-/**
  *This class constructs an algorithm that randomly generates words.
  * This class uses all the previous classes that I made.
  */
