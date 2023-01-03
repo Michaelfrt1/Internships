@@ -1,6 +1,3 @@
-//Michael Ginzburg
-//CSCI 1913
-
 import java.util.Arrays;
 
 /*The SuperCipher class inherits from BaseCipher class in order to decrypt many ciphers*/
