@@ -1,9 +1,4 @@
 /**
- * Michael Ginzburg
- * CSCI 1913
- */
-
-/**
  * This class is meant to represent a data structure that will be used throughout the project.
  * Useful for searching for specific key sets.
  * Uses the created TrieNode class.
