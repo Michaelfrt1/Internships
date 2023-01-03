@@ -1,6 +1,3 @@
-//Michael Ginzburg
-// CSCI 1913
-
 /*
 CaesarCipher is a class that encrypts an inputted message by shifting each letter by the same amount
 The class is also able to decrypt an inputted message using the value of the amount shifted.
