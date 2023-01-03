@@ -1,5 +1,3 @@
-
-
 /*Class EncryptUtils encrypts and decrypts multiple different ciphers stemming from the baseCipher class at one time.*/
 public class EncryptUtils {
 
