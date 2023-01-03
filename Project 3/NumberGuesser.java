@@ -1,7 +1,4 @@
 import java.util.Random;
-
-
-
 //The NumberGuesser class is designed for people and computers to be able to play the guessing number game
 //extends from the Game class
 
