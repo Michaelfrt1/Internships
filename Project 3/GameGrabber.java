@@ -65,8 +65,6 @@ public class GameGrabber {
     public static void main(String[] args) {
         Random rng = new Random();
         GameGrabber grabber = new GameGrabber(new Game[]{
-
-                // TODO: Add more games here once you build a number guesser and hangman game.
                 new MathTestGame(rng, 1, 10, '+'),
                 new MathTestGame(rng, 1, 10, '*'),
                 new MathTestGame(rng, 1, 10, '-'),
