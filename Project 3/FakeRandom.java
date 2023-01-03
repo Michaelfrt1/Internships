@@ -1,10 +1,8 @@
 import java.util.Random;
 
 /**
- * This class is provided to help with testing.
  * It allows us to prespecify a random number.
- *
- * NOTE -- this only works with the nextInt(int) method -- which you are required to use for random integer generation.
+ * NOTE -- this only works with the nextInt(int) method
  */
 public class FakeRandom extends Random {
     private int random;
