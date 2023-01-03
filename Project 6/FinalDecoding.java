@@ -1,6 +1,3 @@
-//Michael Ginzburg
-//CSCI 1913
-
 /* The final decoding class makes it possible to use all the ciphers stemming from the BaseCipher class and uses those ciphers to decode a message.*/
 public class FinalDecoding {
     public static void main(String[] args) {
@@ -11,7 +8,6 @@ public class FinalDecoding {
                 "ufjytn was tjyr txrs msjuhj.yjutfjys jqdijsybs tbw nmyn wq.yn nqyp tjyr.kwzfjdyjsnmtmt wj tx' sbnrmw j.x tlf mdisypt,na t njmx b xutnlrw njhsznlyf cjyi m wus-fpwfq tx' fyy tpby mxlnq mxbq fjxr nj tysyq m jlgwtitiwijsypt ' jjdy tqs xyj t' sb 'jlyyr."
 
         };
-        // Your job is to decode this text... What we know:
         WordReplacementCipher wR = new WordReplacementCipher("world","neighborhood");
         WordReplacementCipher wR1 = new WordReplacementCipher("enigma device","grill");
         WordReplacementCipher wR2 = new WordReplacementCipher("fort knox","my garage");
